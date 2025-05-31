@@ -438,7 +438,7 @@ footer .copyright {
         outline: none;
         cursor: pointer;
         margin-top: -5px;
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .main-nav {
@@ -499,11 +499,13 @@ footer .copyright {
     }
 
     .promo-list li {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .promo-list li::before {
         font-size: 1rem;
+        content: "\2714";
+        color: #00d728;
     }
 
     .product-price {
@@ -555,5 +557,29 @@ footer .copyright {
 
     #welcome {
         padding: 0;
+    }
+}
+
+@media (max-width: 740px) {
+
+    .header-wrapper img {
+        margin-right: 15rem;
+    }
+
+    .product-price {
+        margin-top: 1rem;
+        font-size: 4rem;
+    }
+
+    .old-price {
+        font-size: 1.4rem;
+    }
+
+    .discount-badge {
+        font-size: 1.2rem;
+    }
+
+    .promo-list li {
+        font-size: 13px;
     }
 }
