@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Produtos Exclusivos - BENKYOU NOW ONLINE</title>
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <div class="container">
+            <img src="./assets/LOGO.png" alt="logo benkyou Now" width="80px">
+            <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="metodo.html">MÉTODO</a></li>
+                    <li><a id="home" href="produto.html">PRODUTO</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <main id="content">
+        <h1>
+            <div class="titulo-principal">
+                <span class="title">VOL: 01</span>
+                <span class="dinamico">HIRAGANA</span>
+            </div>
+        </h1>
+        <p class="nihongo"><b>第1巻 ひらがな
+            </b></p>
+        <br>
+        <section id="welcome-one">
+
+            <p>
+                Quer apreder japonês de verdade?
+                <br>
+                Então conheça nosso eBook <strong>VOL. 01 – <span class="dinamico_2">HIRAGANA</span></strong>, o
+                primeiro material da nossa escola que
+                vai
+                te acompanhar em sua jornada aqui na <br>
+                <strong>Benkyou Now <span class="dinamico_2">Online</span></strong>.
+                Com este ebook, você vai dominar completamente todo o alfabeto <b>Hiragana</b> de forma prática e
+                definitiva!
+            </p>
+            <br>
+            <br>
+            <br>
+            <p class="promo">
+                <strong>NOSSO EBOOK OFERECE CONTEÚDOS EXCLUSIVOS E ÚNICOS PARA VOCÊ</strong>
+            </p>
+            <br>
+            <ul class="promo-list">
+                <li>46 kanas + variações explicadas</li>
+                <li>Método com Anki para turbinar seu aprendizado</li>
+                <li>Ilustrações, tabelas e áudios exclusivos</li>
+                <li>Acesso vitalício + conteúdo extra</li>
+                <li>Formato em PDF compatível com todos os dispositivos</li>
+                <li>Visual moderno, atrativo e feito com carinho para você</li>
+            </ul>
+            <br>
+
+            <img class="ebook" src="./assets/vol1hiragana-promo.png" alt="ebook">
+            <!-- Coloque isso onde for mostrar o preço -->
+            <br>
+            <div class="price-box">
+                <div class="old-price-box">
+                    <span class="old-price" id="preco-antigo">R$ 45,99</span>
+                    <span class="discount-badge">ECONOMIZE 0%</span>
+                </div>
+                <p class="product-price">
+                    <span class="price-value">R$</span>
+                    <span class="big-price" id="preco-atual">38,99</span>
+                </p>
+            </div>
+            <br>
+            <button class="buy-now" onclick="window.open('https://pay.hotmart.com/W99982028T', '_blank')">
+                COMPRAR</button>
+
+
+        </section>
+
+        <br>
+    </main>
+
+    <footer class="rodape">
+        <div class="contato">
+
+            <div class="bloco-contato">
+                <p class="destaque">Acesse nosso conteúdo exclusivo pelo nosso instagram</p>
+                <a href="https://instagram.com/benkyounowonline" target="_blank" class="linha-contato">
+                    <i data-lucide="instagram"></i>
+                    <span>@benkyounowonline</span>
+                </a>
+            </div>
+
+            <div class="bloco-contato">
+                <p class="destaque">Entre em contato por e-mail</p>
+                <a href="mailto:contato@benkyounowonline.com.br" target="_blank" class="linha-contato">
+                    <i data-lucide="mail"></i>
+                    <span>contato@benkyounowonline.com.br</span>
+                </a>
+            </div>
+
+            <div class="bloco-contato">
+                <p class="destaque">Atendimento pelo WhatsApp</p>
+                <a href="https://wa.me/5511997254778" target="_blank" class="linha-contato">
+                    <i data-lucide="phone"></i>
+                    <span>(11) 997254778</span>
+                </a>
+            </div>
+
+        </div>
+        <br>
+        <p class="copyright">&copy; <b>2025 BENKYOU NOW ONLINE. Todos os direitos reservados.</b></p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
