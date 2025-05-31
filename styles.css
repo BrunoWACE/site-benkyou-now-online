@@ -462,7 +462,7 @@ footer .copyright {
         width: 100vw;
         height: 25%;
         background: #FFFFFFEF;
-        padding: 2rem 1rem 0 1.5rem;
+        padding: 1rem 1rem 1rem 1.5rem;
         z-index: 1000;
         overflow-y: auto;
         margin-bottom: 1rem;
@@ -584,9 +584,4 @@ footer .copyright {
         font-size: 13px;
     }
 
-        .main-nav.mobile-open ul {
-        width: 100vw;
-        height: 35%;
-     
-    }
 }
