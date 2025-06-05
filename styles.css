@@ -74,10 +74,6 @@
     color: #ff4d50;
 }
 
-#buy:hover {
-    color: #202020;
-}
-
 #home {
     color: #CC0003;
 }
@@ -246,7 +242,7 @@ button.buy,
 button.buy-now {
     display: block;
     width: 100%;
-    max-width: 200px;
+    max-width: 230px;
     padding: 0.75rem 1.5rem;
     margin: 1.25rem auto;
     background-color: #cc0003;
